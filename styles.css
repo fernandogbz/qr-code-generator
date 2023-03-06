@@ -67,3 +67,6 @@ select option {
   font-size: 1.12em;
 }
 
+.selected {
+  display: none;
+}
