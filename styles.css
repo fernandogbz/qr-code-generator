@@ -37,3 +37,20 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+select {
+  appearance: none;
+  width: 8em;
+  padding: 0.45em 0.9em;
+  font-size: 1.25em;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  background-color: #377dff;
+  border: none;
+  color: #fff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: 1.1em;
+  background-position: 6em;
+  outline: none;
+}
