@@ -54,3 +54,8 @@ select {
   background-position: 6em;
   outline: none;
 }
+
+select::-ms-expand {
+  display: none;
+}
+
