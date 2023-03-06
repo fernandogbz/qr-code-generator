@@ -59,3 +59,11 @@ select::-ms-expand {
   display: none;
 }
 
+select option {
+  background-color: #fff;
+  color: #377dff;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  font-size: 1.12em;
+}
+
