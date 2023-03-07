@@ -71,3 +71,10 @@ select option {
   display: none;
 }
 
+.color-inp {
+  -webkit-appearance: none;
+  background-color: transparent;
+  width: 3.1em;
+  height: 3.4em;
+}
+
