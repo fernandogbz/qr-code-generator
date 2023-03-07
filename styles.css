@@ -97,7 +97,13 @@ select option {
 .box button,
 .box a {
   font-size: 1em;
-  padding: 0.8em 2 em;
+  padding: 0.8em 2em;
   border-radius: 0.5em;
   margin-top: 2em;
+}
+
+.box button:disabled {
+  background-color: transparent;
+  color: #a3aab6;
+  border: 0.18em solid #a3aab6;
 }
