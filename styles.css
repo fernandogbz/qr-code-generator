@@ -93,3 +93,11 @@ select option {
   align-items: center;
   justify-content: space-around;
 }
+
+.box button,
+.box a {
+  font-size: 1em;
+  padding: 0.8em 2 em;
+  border-radius: 0.5em;
+  margin-top: 2em;
+}
