@@ -87,3 +87,9 @@ select option {
   border-radius: 0.3em; 
   border: 0.18em solid #191f3f;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
