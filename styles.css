@@ -126,3 +126,7 @@ select option {
   justify-content: center;
   margin-top: 0.18em;
 }
+
+.hide {
+  display: none;
+}
