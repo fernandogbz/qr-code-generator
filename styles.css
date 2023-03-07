@@ -107,3 +107,10 @@ select option {
   color: #a3aab6;
   border: 0.18em solid #a3aab6;
 }
+
+.box button {
+  background-color: transparent;
+  color: #377dff;
+  border: 0.18em solid #377dff;
+}
+
