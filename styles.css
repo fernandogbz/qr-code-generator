@@ -114,3 +114,9 @@ select option {
   border: 0.18em solid #377dff;
 }
 
+.box a {
+  background-color: #377dff;
+  color: #fff;
+  text-decoration: none;
+  border: 0.18em solid #377dff;
+}
