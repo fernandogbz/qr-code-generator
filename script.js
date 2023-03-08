@@ -21,3 +21,8 @@ sizeOptions.addEventListener("change", () => {
   sizeChoice = sizeOptions.value;
 });
 
+// Set background color
+BGColor.addEventListener("input", () => {
+  BGColorChoice = BGColor.value;
+});
+
