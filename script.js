@@ -9,3 +9,5 @@ const downloadBtn = document.getElementById("download");
 const sizeOptions = document.querySelector(".sizeOptions");
 
 const BGColor = document.getElementById("BGColor");
+
+const FGColor = document.getElementById("FGColor");
