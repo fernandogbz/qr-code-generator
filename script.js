@@ -11,3 +11,6 @@ const sizeOptions = document.querySelector(".sizeOptions");
 const BGColor = document.getElementById("BGColor");
 
 const FGColor = document.getElementById("FGColor");
+
+let QRCode;
+
