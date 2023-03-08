@@ -31,3 +31,8 @@ FGColor.addEventListener("input", () => {
   FGColorChoice = FGColor.value;
 })
 
+// Format input
+const inputFormatter = (value) => {
+  value = value.replace(/[^a-z0-9A-Z]+/g, "");
+  return value;
+}
