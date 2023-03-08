@@ -26,3 +26,8 @@ BGColor.addEventListener("input", () => {
   BGColorChoice = BGColor.value;
 });
 
+// Set foreground color
+FGColor.addEventListener("input", () => {
+  FGColorChoice = FGColor.value;
+})
+
