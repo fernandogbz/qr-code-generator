@@ -15,3 +15,9 @@ const FGColor = document.getElementById("FGColor");
 let QRCode;
 
 let sizeChoice, BGColorChoice, FGColorChoice;
+
+// Set size
+sizeOptions.addEventListener("change", () => {
+  sizeChoice = sizeOptions.value;
+});
+
