@@ -12,7 +12,7 @@ const BGColor = document.getElementById("BGColor");
 
 const FGColor = document.getElementById("FGColor");
 
-let QRCode;
+let QR_Code;
 
 let sizeChoice, BGColorChoice, FGColorChoice;
 
@@ -40,7 +40,7 @@ const inputFormatter = (value) => {
 submitBtn.addEventListener("click", async () => {
   container.innerHTML = "";
   // QR code generation
-  QRCode = await new QRCode(container, {
+  QR_Code = await new QRCode(container, {
     text: userInput.value,
     with: sizeChoice,
     height: sizeChoice,
