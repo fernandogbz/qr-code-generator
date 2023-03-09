@@ -125,7 +125,7 @@ select option {
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 0.18em;
+  margin-top: 2em;
 }
 
 .hide {
