@@ -70,3 +70,4 @@ userInput.addEventListener("input", () => {
     submitBtn.disabled = false;
   }
 });
+
