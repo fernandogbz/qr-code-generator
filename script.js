@@ -42,7 +42,7 @@ submitBtn.addEventListener("click", async () => {
   // QR code generation
   QR_Code = await new QRCode(container, {
     text: userInput.value,
-    with: sizeChoice,
+    width: sizeChoice,
     height: sizeChoice,
     colorDark: FGColorChoice,
     colorLight: BGColorChoice,
