@@ -60,3 +60,13 @@ submitBtn.addEventListener("click", async () => {
     downloadBtn.classList.remove("hide");
   }
 });
+
+userInput.addEventListener("input", () => {
+  if (userInput.value.trim().length < 1) {
+    submitBtn.disabled = true;
+    downloadBtn.href = "";
+    downloadBtn.classList.add("hide");
+  } else {
+    submitBtn.disabled = false;
+  }
+});
