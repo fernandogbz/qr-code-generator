@@ -39,4 +39,12 @@ const inputFormatter = (value) => {
 
 submitBtn.addEventListener("click", async () => {
   container.innerHTML = "";
+  // QR code generation
+  QRCode = await new QRCode(container, {
+    text: userInput.value,
+    with: sizeChoice,
+    height: sizeChoice,
+    colorDark: FGColorChoice,
+    colorLight: BGColorChoice,
+  });
 });
