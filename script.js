@@ -71,3 +71,13 @@ userInput.addEventListener("input", () => {
   }
 });
 
+window.onload = () => {
+  container.innerHTML = "";
+  sizeChoice = 100;
+  sizeOptions.value = 100;
+  userInput.value = "";
+  BGColor.value = BGColorChoice = "#ffffff";
+  FGColor.value = FGColorChoice = "#377dff";
+  downloadBtn.classList.add("hide");
+  submitBtn.disabled = true;
+}
