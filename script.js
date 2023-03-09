@@ -47,4 +47,16 @@ submitBtn.addEventListener("click", async () => {
     colorDark: FGColorChoice,
     colorLight: BGColorChoice,
   });
+
+  // Set url for download
+  const src = container.firstChild.toDataURL("image/png");
+  downloadBtn.href = src;
+  let userValue = userInput.value;
+  try {
+    userValue = new URL(userValue).hostname;
+  } catch (_) {
+    userValue = inputFormatter(userValue);
+    downloadBtn.download = `${userValue}QR`;
+    downloadBtn.classList.remove("hide");
+  }
 });
