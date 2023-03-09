@@ -35,4 +35,8 @@ FGColor.addEventListener("input", () => {
 const inputFormatter = (value) => {
   value = value.replace(/[^a-z0-9A-Z]+/g, "");
   return value;
-}
+};
+
+submitBtn.addEventListener("click", async () => {
+  container.innerHTML = "";
+});
