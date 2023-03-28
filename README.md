@@ -1,5 +1,5 @@
 # qr-code-generator
-This project was made by Fernando Jiménez, using only HTML5, CSS and JavaScript. Without any external libraries or frameworks.
+This project was made by Fernando Jiménez, using HTML5, CSS and JavaScript.
 <br>
 <br>
 Link: https://fernandogbz.github.io/qr-code-generator/
